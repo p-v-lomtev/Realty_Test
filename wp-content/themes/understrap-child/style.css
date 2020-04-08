@@ -1,0 +1,81 @@
+/*
+Theme Name: Дочерняя тема UnderStrap
+Template: understrap
+
+Не обязательные параметры:
+Theme URI: http://example.com/
+Description: Дочерняя тема для темы understrap
+Author: Pavel L.
+Author URI: 
+Version: 1.0
+*/
+
+/* импортируем стили родительской темы */
+@import url("style.css");
+
+.realty {
+	display: inline-block;
+    padding: 1rem;
+	margin-bottom: 0.3rem;
+}
+
+.realty::hover {
+	 background: #5533ff;
+	 color: #fff;
+}
+
+.realty-img {
+	height: 180px !important;
+	width: auto;
+	text-align: center;
+}
+
+.badge a {
+	color: #fff !important;
+	text-decoration: none !important;
+	font-size: 14px;
+}
+
+.price-realty {
+	padding: 1rem 0 1rem 0;
+}
+
+.margin-8 {
+	margin: 1rem 0;
+}
+
+.info-block {
+	font-size: 120%;
+}
+
+.info-block .badge {
+	font-size: 80%;
+}
+
+.info-block span{
+	margin-right: 3%;
+}
+
+.comments-area {
+	margin-top: 2rem; 
+}
+
+.cat-item{
+    background: blue;
+    display: inline-block;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    margin: 1rem 1rem 1rem 0;
+    justify-content: center;
+}
+
+.cat-item a {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.img_content {
+    display: flex;
+    min-height:194px;
+    vertical-align: middle;
+}
